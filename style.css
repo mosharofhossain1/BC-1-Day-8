@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_div{
+    border: 2px solid forestgreen;
+    width: 1024px;
+    margin:50px auto;
+   text-align: center;
+}
+.common_style{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    display: inline-block;
+    margin: 10px 10px;
+    text-align: center;
+    transition: .4s;
+}
+
+.div1:hover{
+    transform: translateY(20px);
+}
+.div2:hover{
+    transform: rotate(45deg);
+}
+.div3:hover{
+    transform: skew(40deg);
+}
+.div4:hover{
+    transform: scaleX(1.1);
+}
+.img_div{
+    border: 1px solid red;
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+}
+.img_div img{
+    width: 100%;
+    cursor: pointer;
+    transition: .4s;
+}
+.img_div img:hover{
+    transform: scale(1.1) rotate(360deg);
+}
